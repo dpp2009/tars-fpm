@@ -3,8 +3,6 @@
     "description": "tars-fpm",
     "version":"0.0.1",
     "require": {
-        "php": ">=7.1",
-        "ext-swoole": ">=4.5",
         "swoole/library": "dev-master",
         "phptars/tars-client": "~0.1",
         "phptars/tars-report": "~0.1",
