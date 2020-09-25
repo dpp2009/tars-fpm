@@ -1,0 +1,28 @@
+{
+    "name" : "tarsFPM",
+    "description": "tarsFPM",
+    "version":"0.0.1",
+    "require": {
+        "php": ">=7.1",
+        "ext-swoole": ">=4.5",
+        "swoole/library": "dev-master",
+        "phptars/tars-client": "~0.1",
+        "phptars/tars-report": "~0.1",
+        "phptars/tars-config": "~0.1",
+        "phptars/tars-monitor": "^0.1.2",
+        "phptars/tars-log": "~0.1",
+        "ext-zip" : ">=0.0.1"
+    },
+    "authors": [
+        {
+            "name": "Panpan Ding",
+            "email": "dingpanpan@yuewen.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tars\\fpm\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
