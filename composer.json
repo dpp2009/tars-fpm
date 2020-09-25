@@ -1,5 +1,5 @@
 {
-    "name" : "tars-fpm",
+    "name" : "dpp2009/tars-fpm",
     "description": "tars-fpm",
     "version":"0.0.1",
     "require": {
